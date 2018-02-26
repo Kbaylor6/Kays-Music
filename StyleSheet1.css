@@ -1,0 +1,38 @@
+﻿body
+{
+    color: #FFFFFF;background-color:#006666;background-image: url(earphones.png); opacity:1.0; font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#wrapper
+{
+    width:80; margin-left:auto; margin-right:auto; 
+}
+#rightcol
+{
+    overflow: auto;
+}
+main
+{
+    padding: 10px 10px; overflow: auto; display: block;
+}
+#nav
+{
+    float: left; width: 150px; font-weight: bold; letter-spacing: 0.1em;
+}
+#floatright
+{ 
+    float:right; margin: 10px;
+}
+    figure {width: 320px;
+            border: 3px groove #FFFFFF;
+            padding: 2px;
+            }
+  figcaption{text-align:left;
+             width:320px;
+             color:#FFFFFF;}
+#nav a:link{color:#505050;}
+#nav a:visited{color:#ffffff;}
+#nav a:hover{color:#32617c;; background-color: #000000;}
+tr:first-of-type{background-color: #505050; color: #32617c}
+table{width:200px; margin :auto;}
+tbody{font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; font-size:.90em;}
+tbody td{border: 1px #000000 dashed; padding-left: 25px;}
