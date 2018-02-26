@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en" >
+<head>
+    <title>Home Page - Contact</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="project2.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div id="wrapper">
+<h2 style="color:#32617c">Contact Inforation<hr></h2>
+  <div id="nav">
+    <ul>
+        <a li href="index.html">Home</a> &nbsp;
+        <a li href="contact.html">Contact</a> &nbsp;
+    </ul>
+    </div>
+ <div id="rightcol">
+    <p>Please feel free to contact me at the email below if you would like more information on a different artist or just want to talk.</p>
+    <ul>
+        <li> E-Mail: 
+        <a href="mailto:kbaylor4@vcu.edu">kbaylor4@vcu.edu</a></li>
+    </ul>
+    <figure>
+<img src="cds.png" height="200" width="300" alt="three cds touching each other" border="3px" dashed="#FFFFFF" padding="4px">
+  <figcaption>
+   CDs
+  </figcaption>
+</figure>
+   <p>If you would like to get weekly updates on current artists, feel free to join my newsletter by entering your email below.</p>
+   <form>
+       E-mail:<input type="text" name="email" id="email"><br>
+       <input type="submit">
+   </form>
+   <br>
+   <fieldset>
+       <legend>Reader's Information</legend>
+       <label>First Name:<input type="text" name="first name" id="first name"></label><br>
+       <label>Last Name:<input type="text" name="last name" id="last name"></label><br>
+       <input type="submit">
+   </fieldset>
+    </div>
+</body>
+</html>
