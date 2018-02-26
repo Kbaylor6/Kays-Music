@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html lang="en" >
+<head>
+    <title>Home Page</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="StyleSheet1.css"/>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script
+    src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js">
+    </script>
+    <script>
+     function promptQuality() {
+       var quality;
+       quality = prompt ("Please type age greater than 16");
+       if (quality <= 16) {
+          alert("Age is less than 16. You are not old enough.");
+       } else {
+       alert ("Age is valid.");
+       }//end if
+       }//end function promptQuality
+     </script>
+    <script>
+      $(document).ready (function() {
+      $("button") .click (function () {
+        $("a:even").css('color','#006600');
+      });
+      });
+    </script>
+</head>
+<body>
+  <div id="wrapper"> 
+  <header>
+    <h1 style="color:#32617c">Kay's Music List</h1>
+    <h2 style="color:#32617c">New Artists of Music<hr></h2>
+    <script>
+      alert("Welcome to Kay's Music");
+    </script>
+  </header>
+  <input type="button" value="Enter age"
+      onclick="promptQuality();">
+  <div id="nav">
+      <ul><a li href="index.html">Home</a>
+          <a li href="contact.html">Contact</a>
+      </ul>
+      <button>Click here</button>
+  </div>
+  <div id="rightcol">
+<figure>
+<img src="microphone.png" height="200" width="320" alt="classic microphone">
+ <figcaption>
+    classic microphone
+ </figcaption>
+ </figure>
+    <main>
+      <h2>Rising Chart Toppers</h2>
+       <p>Getting to know the names before you hear the music. These following artist are not necessarily new to the world of music, but their music has just begun to hit the radio. This site is to help the world get to know them so they can enjoy this wonderful music as much as I do. To listen to their music, I suggest visiting <a href="http://soundcloud.com">SoundCloud.</a></p> 
+        <table border="1">
+         <tr>
+           <td colspan="2"> Genres of the Artists</td>
+         </tr>
+         <tr>
+           <td>Pop</td>
+           <td>Hip Hop and R&B</td>
+          </tr>
+          <tr>
+            <td>Bea Miller</td>
+            <td>Harry Hudson</td>
+          </tr>
+          <tr>
+            <td>MAX</td>
+            <td>Fetty Wap</td>
+          </tr>
+         </table>
+         <dl>
+         <dt>Harry Hudson</dt>
+          <dd>Harry started his career a few years ago and then ended up getting cancer. He went through treatment and during that time he wrote his first EP called <i>The Treatment.</i> He can be considered an inspirational rapper. Most of his work talks about the hardship he and other people go through in life. His relationship with Kendall and Kylie Jenner and Jaden Smith has also had a hand in his work. Harry is a hardworking person that keeps trying no matter what.</dd>
+         <dt>Fetty Wap</dt>
+          <dd>Fetty Wap is also a rapper but his beat is more traditional than Harry's. Althought he raps about the same things mostly every other rapper does (girls and money), his voice is unique. It's not to heavy and it draws you in. The other thing that might draw you in to Fetty is his missing eye, which he lost as a kid to cancer. Even though his music is derogatory, it's fun to listen to.</dd>
+         <dt>Bea Miller</dt>
+          <dd>Bea Miller one of the young artist that is out now. She started on the reality show, X Factor. She did not win or even come in second or third she was able to get her music on the radio. Her style is a pop and is mostly about growing up. Bea's music is mature for her age though, because she has gone through some things that other kids her age haven't. She is on a good path and I believe she will go very far.</dd>
+         <dt>MAX</dt>
+          <dd>Max Schneider is a young adult that can be connected to Nickelodeon's <i>How To Rock.</i> He first started doing covers then to his own music. Max's style is "pop" but does have a bit of a soul feel to it when he rearranges a fast song to a slow song. Even though Max only had one song to hit the radio, he was mentioned at the Grammy Awards. There are works in store for his fans and he might just end up with a number one song by next year.</dd>
+       </dl>
+       <table border="3">
+         <tr>
+           <td>Artist</td>
+           <td>Start Up Year</td>
+         </tr>
+         <tr>
+           <td>Harry Hudson</td>
+           <td>2011</td>
+         </tr>
+         <tr>
+           <td>Fetty Wap</td>
+           <td>2011</td>
+         </tr>
+         <tr>
+           <td>Bea Miller</td>
+           <td>2008</td>
+         </tr>
+         <tr>
+          <td>Max</td>
+          <td>2008</td>
+         </tr>
+      </table>  
+       <h2>Good Tracks By The Artists</h2>
+        <ul>
+         <li>Learn To Love</li>
+         <li>My Way</li>
+         <li>Fire and Gold</li>
+         <li>Nothing Without Love</li>
+        </ul>
+        <table border="1">
+         <tr>
+           <td rowspan="4">Top radio hits from the artists</td>
+           <td>World Is Gone</td>
+          </tr>
+          <tr>
+            <td>Trap Queen</td>
+          </tr>
+          <tr>
+            <td>Young Blood</td>
+          </tr>
+          <tr>
+            <td>Gibberish</td>
+          </tr>
+        </table>  
+       <h2 style="color:#32617c">Seeing These Lovely People In Concert</h2>
+         <ol>
+          <li>First, go to their individual websites to see when they are coming to a place near you.</li>
+          <li>Then, order your tickets in advanced to getgood seats.</li>
+          <li>Lastly, go to the concert and enjoy yourself.</li>
+         </ol>
+<script>
+ document.write (document.lastModified);
+</script>  
+</main>
+  </div>
+  </div>
+</body>
+</html>
